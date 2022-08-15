@@ -1,0 +1,36 @@
+.nav-menu{
+    margin:0;
+    padding:0;
+    ul{
+        list-style:none;
+        margin:0;
+        padding:0;
+
+        li{
+            background-color: white;
+            min-width: 100px;
+            border:1px solid white;
+            display:inline-block;
+            margin:5px;
+            padding:5px;
+            
+
+            a{
+                color:black;
+                text-decoration: none;
+
+
+            }
+            &.active{//& means that is implemented for the containg class(li)
+                background-color: red;
+                a{
+                    color:white;
+                }
+            }
+
+        }
+    }
+    
+
+
+}
